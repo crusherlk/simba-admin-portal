@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+  }
+  th,
+  td {
+    @apply py-3 px-2.5 text-sm text-left;
+  }
+  thead {
+    @apply bg-gray-100;
+  }
+  th {
+    @apply font-semibold;
+  }
+  tr {
+    @apply border-y border-gray-200;
+  }
+
+  .btn {
+    @apply bg-gray-900 text-gray-400 p-2 rounded flex items-center gap-2 hover:bg-gray-700 hover:text-white;
+  }
+
+  .btn-alt {
+    @apply bg-transparent text-gray-900 p-2 rounded flex items-center gap-2 hover:text-gray-700 hover:border-gray-700;
+  }
+
+  .form-control {
+    @apply mb-2;
+  }
+
+  input,
+  textarea {
+    @apply p-2 border border-gray-200 rounded focus-visible:outline-none;
+  }
+}
+
+.Toastify__toast-body {
+  @apply font-sans text-sm font-semibold;
+}

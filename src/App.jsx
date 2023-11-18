@@ -8,7 +8,7 @@ import Layout from "./layout/Layout";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Products from "./pages/Products";
-import AddEditProduct from "./components/products/addEditProduct";
+import AddEditProduct from "./components/products/AddEditProduct";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
